@@ -4,6 +4,23 @@
              xmlns:local="clr-namespace:Wpf_task_circle_design"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        
+        <!--<ResourceDictionary>
+            <BitmapImage x:Key="instal" UriSource="Image\instal.png"></BitmapImage>
+        </ResourceDictionary>-->
+        <Style TargetType="Button" x:Key="RoundButtonTemplate">
+            <Setter Property="Background" Value="DeepPink"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="20" Background="{TemplateBinding Background}" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

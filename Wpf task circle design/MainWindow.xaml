@@ -305,22 +305,38 @@
             <Label
                 Content="Fully"
                 FontSize="80"
-                Margin="10, 60"
+                Margin="10, 40"
                 ></Label>
             <Label
                 Content="Colored"
                 FontSize="80"
-                Margin="10, 150"
+                Margin="10, 130"
                 ></Label>
+            <Label 
+                Content="Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
+                eiusmadtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostura " 
+                HorizontalAlignment="Center" 
+                Height="53"
+                Width="340"
+                Canvas.Left="20" 
+                Canvas.Top="250" 
+                VerticalAlignment="Top"
+                />
             <Button
-              Background="DeepPink"
-              Content="Download"
-              FontSize="25"
-              Margin="120, 320"
-              Foreground="White"
-              
-                ></Button>
-
+              Style="{StaticResource RoundButtonTemplate}"
+              Width="140"
+              Height="40"
+              BorderBrush="#ffff"
+                Name="DownloadBtn"
+                Content="      Download"
+                Margin="110, 330"
+                FontSize="18"   
+                FontWeight="Bold"
+               />
+            <Image
+                Margin="119, 335"
+                Source="Image\instal.png"
+                ></Image>
         </Canvas>
     </Grid>
 </Window>
