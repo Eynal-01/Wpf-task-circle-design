@@ -9,8 +9,318 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
-        <Canvas Background="White"></Canvas>
+        <Canvas Background="white">
+            <Ellipse Panel.ZIndex="1" ></Ellipse>
+
+            <Rectangle
+                Width="50"
+                Height="350"
+                Canvas.Left="140"
+                Canvas.Top="245"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#61045f" Offset="0"></GradientStop>
+                        <GradientStop Color="black" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="50"
+                Height="350"
+                Canvas.Left="220"
+                Canvas.Top="210"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="DeepPink" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.8"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="60"
+                Height="300"
+                Canvas.Left="110"
+                Canvas.Top="80"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="DeepPink" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.9"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="60"
+                Height="350"
+                Canvas.Left="20"
+                Canvas.Top="100"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="#dd5e90" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.9"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="50"
+                Height="300"
+                Canvas.Left="129"
+                Canvas.Top="140"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="#aa076b" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.9"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="50"
+                Height="350"
+                Canvas.Left="190"
+                Canvas.Top="130"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="purple" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="60"
+                Height="300"
+                Canvas.Left="195"
+                Canvas.Top="300"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="DeepPink" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.6"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="60"
+                Height="300"
+                Canvas.Left="270"
+                Canvas.Top="350"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="DeepPink" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.6"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="60"
+                Height="350"
+                Canvas.Left="290"
+                Canvas.Top="230"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="#aa076b" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="60"
+                Height="350"
+                Canvas.Left="290"
+                Canvas.Top="280"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="purple" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="60"
+                Height="550"
+                Canvas.Left="290"
+                Canvas.Top="100"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="#aa076b" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.9"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="50"
+                Height="350"
+                Canvas.Left="100"
+                Canvas.Top="350"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="purple" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.4"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="60"
+                Height="350"
+                Canvas.Left="100"
+                Canvas.Top="240"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="#aa076b" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="0.7"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle
+                Width="50"
+                Height="350"
+                Canvas.Left="50"
+                Canvas.Top="190"
+                RadiusX="30"
+                RadiusY="30"
+                >
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </Rectangle.RenderTransform>
+                <Rectangle.Fill>
+
+                    <LinearGradientBrush>
+                        <GradientStop Color="purple" Offset="0"></GradientStop>
+                        <GradientStop Color="Black" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Canvas>
+        <Canvas Grid.Column="1" Background="white">
+            <Label 
+                Content="REGISTER"
+                FontSize="15"
+                Margin="20"
+                   >
+            </Label>
+            <Label
+                Content="LOGIN"
+                FontSize="15"
+                Margin="120, 20"
+                ></Label>
+            <Label
+                Content="ABOUT"
+                FontSize="15"
+                Margin="210 ,20"
+                ></Label>
+            <Label
+                Content="FAQ"
+                FontSize="15"
+                Margin="310, 20"
+                ></Label>
+            <Label
+                Content="Fully"
+                FontSize="80"
+                Margin="10, 60"
+                ></Label>
+            <Label
+                Content="Colored"
+                FontSize="80"
+                Margin="10, 150"
+                ></Label>
+            <Button
+              Background="DeepPink"
+              Content="Download"
+              FontSize="25"
+              Margin="120, 320"
+              Foreground="White"
+              
+                ></Button>
+
+        </Canvas>
     </Grid>
 </Window>

@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Wpf_task_circle_design"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        
     </Application.Resources>
 </Application>
