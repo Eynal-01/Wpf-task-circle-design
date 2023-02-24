@@ -312,16 +312,15 @@
                 FontSize="80"
                 Margin="10, 130"
                 ></Label>
-            <Label 
-                Content="Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-                eiusmadtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostura " 
-                HorizontalAlignment="Center" 
-                Height="53"
+            <TextBlock
+                Text="Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmadtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostura " 
                 Width="350"
+                Height="50"
+                Foreground="Gray"  
                 Canvas.Left="20" 
-                Canvas.Top="250" 
-                VerticalAlignment="Top"
-                />
+                Canvas.Top="246" 
+                TextWrapping="Wrap"
+                ></TextBlock>
             <Button
               Style="{StaticResource RoundButtonTemplate}"
               Width="140"
