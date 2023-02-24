@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_task_circle_design"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" MaxHeight="450" MaxWidth="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
@@ -317,7 +317,7 @@
                 eiusmadtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostura " 
                 HorizontalAlignment="Center" 
                 Height="53"
-                Width="340"
+                Width="350"
                 Canvas.Left="20" 
                 Canvas.Top="250" 
                 VerticalAlignment="Top"
@@ -334,9 +334,8 @@
                 FontWeight="Bold"
                />
             <Image
-                Margin="119, 335"
-                Source="Image\instal.png"
-                ></Image>
+                Source="Image\instal.png" Canvas.Left="124" Canvas.Top="338" Height="20" Width="21" 
+                />
         </Canvas>
     </Grid>
 </Window>
